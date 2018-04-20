@@ -1,0 +1,33 @@
+#!/bin/bash
+# Declare All functions to perform commands
+readFile () {
+  #open _commands.txt file and read them in to a single variable and return it.
+  dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+  old_IFS=$IFS
+  IFS=$'\n'
+  lines=($(cat $dir/'commands.txt'))
+  IFS=$old_IFS
+  addCommands
+}
+addCommands () {
+  # Printing Commands to ~/.bash_profile
+  echo ' '>>~/.bash_profile
+  echo "# <-------- Little-Git-Commands -------->" >>~/.bash_profile
+  echo ${lines[@]} >>~/.bash_profile
+  echo ' '>>~/.bash_profile
+  #updating ~/.bash_profile
+  echo "Updating bash Profile"
+  source ~/.bash_profile
+}
+isBashOpen () {
+  if ! [ -a ~/.bash_profile ];then
+      touch .bash_profile
+      echo "File created. Writing commands"
+      readFile
+  else
+      echo "File already exists. Writing Commands.."
+      readFile
+  fi
+}
+#Running Installation
+isBashOpen
