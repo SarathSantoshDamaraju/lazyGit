@@ -12,10 +12,11 @@ readFile () {
 addCommands () {
   # Printing Commands to ~/.bash_profile
   echo ' '>>~/.bash_profile
-  echo "# <-------- Little-Git-Commands -------->" >>~/.bash_profile
+  echo "# <-------- Lazy Git Commands -------->" >>~/.bash_profile
   echo ${lines[@]} >>~/.bash_profile
   echo ' '>>~/.bash_profile
   #updating ~/.bash_profile
+  echo "# <-------- End  -------->" >>~/.bash_profile
   echo "Updating bash Profile"
   source ~/.bash_profile
 }
