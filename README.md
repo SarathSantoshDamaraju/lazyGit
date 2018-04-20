@@ -34,7 +34,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me 
 | `git revert HEAD`| `grevert-h`| This reverts last commit only, Use the above for reseting other commits eg., `grevert head~2`| [:information_source:](https://git-scm.com/docs/git-revert) |
 | `git status [<options>…] [--] [<pathspec>…]`| `gs [<options>…] [--] [<pathspec>…]`| Yes | [:information_source:](https://git-scm.com/docs/git-status) |
 | `git stash [<command>] [<options>]`| `gsh [<command>] [<options>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash) |
-| `git stash apply  [--index] [-q|--quiet] [<stash>]`| `gsh-a  [--index] [-q|--quiet] [<stash>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash) |
+| `git stash apply  [--index] [<stash>]`| `gsh-a  [--index] [<stash>]` | Yes | [:information_source:](https://git-scm.com/docs/git-stash) |
 | `git stash list [<options>]`| `gsh-l [<options>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-listltoptionsgt) |
 | `git stash clear`| `gsh-c`| No It clears all the stash list | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-clear) |
 | `git stash pop [--index]`| `gsh-p [--index]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-pop--index-q--quietltstashgt) |
