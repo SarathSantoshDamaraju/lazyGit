@@ -11,29 +11,34 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me 
 ## Short Codes List
 | Command | Shortcode | Can pass default params with this command | Git Repo Link |
 | --- | --- | --- | --- |
-| `git init [<options>]` | `g! [<options>]` | Yes | [->](https://git-scm.com/docs/git-init) |
-| `git add .` | `g.` | Yes | [->](https://git-scm.com/docs/git-add) |
-| `git branch` | `gb` | Yes | [->](https://git-scm.com/docs/git-branch) |
-| `git checkout -b <name>` | `gb-new <name>` | No, You can only pass branch-name and `--track` or `--no-track`| [->](https://git-scm.com/docs/git-checkout) |
-| `git blame` | `gblame` | Yes | [->](https://git-scm.com/docs/git-blame) |
-| `git clone <url> ` | `gclone <url>` | Yes |[->](https://git-scm.com/docs/git-clone) |
-| `git commit -m <message>` | `gc <message>` | No, it accepts only commit message |[->](https://git-scm.com/docs/git-commit) |
-| `git diff [--options] <commit> [--] [<path>…]` | Yes | `gd [--options] <commit> [--] [<path>…]` | [->](https://git-scm.com/docs/git-diff) |
-| `git fetch [<options>] [<repository> [<refspec>…]` | `gf [<options>] [<repository> [<refspec>…]]` | Yes | [->](https://git-scm.com/docs/git-fetch) |
-| `git push [<options>] [<remote>] [<branch>]` | `gpush [<options>] [<remote>] [<branch>]` | Yes | [->](https://git-scm.com/docs/git-push) |
-| `git push -f [<remote>] [<branch>]`| `gpush-f <remote> <branch>`| Yes | [->](https://git-scm.com/docs/git-push) |
-| `git pull [options] [<repository> [<refspec>…]]` | `gpull [options] [<repository> [<refspec>…]]` | Yes | [->](https://git-scm.com/docs/git-pull) |
-| `git remote [commands] [<...>]` | `gr [commands] [<...>]` | Yes | [->](https://git-scm.com/docs/git-remote) |
-| `git remote -v` | `gr-v` | It acceps only `<show>` and `<update>` | [->](https://git-scm.com/docs/git-remote) |
-| `git remote add  <name> <url>` | `gr-update <name> <url>` | It accepts options related to `<add>` | [->](https://git-scm.com/docs/git-remote#git-remote-emaddem) |
-| `git remote update` | `gr-update` | Only accepts `<prune>` | [->](https://git-scm.com/docs/git-remote#git-remote-emupdateem) |
-| `git remote remove <name>`| `gr-remove <name>`| No other options are needed other than `<name>` | [->](https://git-scm.com/docs/git-remote#git-remote-emremoveem) |
-| `git reset [<mode>] <head>`| `greset  [<mode>] <head>`| Yes | [->](https://git-scm.com/docs/git-reset) |
-| `git reset --hard <head>`| `greset-h <head>`| Takes only `<head>` | [->](https://git-scm.com/docs/git-reset#git-reset---hard) |
-| `git revert [<options>] [<subcommands>]`| `grevert [<options>] [<subcommands>]`| Yes | [->](https://git-scm.com/docs/git-revert) |
-| `git revert HEAD`| `grevert-h`| This reverts last commit only, Use the above for reseting other commits eg., `grevert head~2`| [->](https://git-scm.com/docs/git-revert) |
+| `git init [<options>]` | `g! [<options>]` | Yes | [:information_source:](https://git-scm.com/docs/git-init) |
+| `git add .` | `g.` | Yes | [:information_source:](https://git-scm.com/docs/git-add) |
+| `git branch` | `gb` | Yes | [:information_source:](https://git-scm.com/docs/git-branch) |
+| `git checkout -b <name>` | `gb-new <name>` | No, You can only pass branch-name and `--track` or `--no-track`| [:information_source:](https://git-scm.com/docs/git-checkout) |
+| `git blame` | `gblame` | Yes | [:information_source:](https://git-scm.com/docs/git-blame) |
+| `git clone <url> ` | `gcl <url>` | Yes |[:information_source:](https://git-scm.com/docs/git-clone) |
+| `git commit -m <message>` | `gc <message>` | No, it accepts only commit message |[:information_source:](https://git-scm.com/docs/git-commit) |
+| `git diff [--options] <commit> [--] [<path>…]` | Yes | `gd [--options] <commit> [--] [<path>…]` | [:information_source:](https://git-scm.com/docs/git-diff) |
+| `git fetch [<options>] [<repository> [<refspec>…]` | `gf [<options>] [<repository> [<refspec>…]]` | Yes | [:information_source:](https://git-scm.com/docs/git-fetch) |
+| `git push [<options>] [<remote>] [<branch>]` | `gph [<options>] [<remote>] [<branch>]` | Yes | [:information_source:](https://git-scm.com/docs/git-push) |
+| `git push -f [<remote>] [<branch>]`| `gph-f <remote> <branch>`| Yes | [:information_source:](https://git-scm.com/docs/git-push) |
+| `git pull [options] [<repository> [<refspec>…]]` | `gpl [options] [<repository> [<refspec>…]]` | Yes | [:information_source:](https://git-scm.com/docs/git-pull) |
+| `git remote [commands] [<...>]` | `gr [commands] [<...>]` | Yes | [:information_source:](https://git-scm.com/docs/git-remote) |
+| `git remote -v` | `gr-v` | It acceps only `<show>` and `<update>` | [:information_source:](https://git-scm.com/docs/git-remote) |
+| `git remote add  <name> <url>` | `gr-update <name> <url>` | It accepts options related to `<add>` | [:information_source:](https://git-scm.com/docs/git-remote#git-remote-emaddem) |
+| `git remote update` | `gr-update` | Only accepts `<prune>` | [:information_source:](https://git-scm.com/docs/git-remote#git-remote-emupdateem) |
+| `git remote remove <name>`| `gr-remove <name>`| No other options are needed other than `<name>` | [:information_source:](https://git-scm.com/docs/git-remote#git-remote-emremoveem) |
+| `git reset [<mode>] <head>`| `greset  [<mode>] <head>`| Yes | [:information_source:](https://git-scm.com/docs/git-reset) |
+| `git reset --hard <head>`| `greset-h <head>`| Takes only `<head>` | [:information_source:](https://git-scm.com/docs/git-reset#git-reset---hard) |
+| `git revert [<options>] [<subcommands>]`| `grevert [<options>] [<subcommands>]`| Yes | [:information_source:](https://git-scm.com/docs/git-revert) |
+| `git revert HEAD`| `grevert-h`| This reverts last commit only, Use the above for reseting other commits eg., `grevert head~2`| [:information_source:](https://git-scm.com/docs/git-revert) |
 | `git status [<options>…] [--] [<pathspec>…]`| `gs [<options>…] [--] [<pathspec>…]`| Yes | [:information_source:](https://git-scm.com/docs/git-status) |
-
+| `git stash [<command>] [<options>]`| `gsh [<command>] [<options>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash) |
+| `git stash apply  [--index] [-q|--quiet] [<stash>]`| `gsh-a  [--index] [-q|--quiet] [<stash>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash) |
+| `git stash list [<options>]`| `gsh-l [<options>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-listltoptionsgt) |
+| `git stash clear`| `gsh-c`| No It clears all the stash list | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-clear) |
+| `git stash pop [--index]`| `gsh-p [--index]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-pop--index-q--quietltstashgt) |
+| `git stash drop [<stash>]`| `gsh-d [<stash>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-apply--index-q--quietltstashgt) |
 ----
 ## To Contribute
 

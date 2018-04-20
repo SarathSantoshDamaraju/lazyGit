@@ -15,10 +15,11 @@ addCommands () {
   echo "# <-------- Lazy Git Commands -------->" >>~/.bash_profile
   echo ${lines[@]} >>~/.bash_profile
   echo ' '>>~/.bash_profile
-  #updating ~/.bash_profile
+  # Updating ~/.bash_profile
   echo "# <-------- End  -------->" >>~/.bash_profile
   echo "Updating bash Profile"
   source ~/.bash_profile
+  # to Open bash profile type 'open ~/.bash_profile'
 }
 isBashOpen () {
   if ! [ -a ~/.bash_profile ];then
