@@ -49,7 +49,7 @@ I have added commands that I use frequently and will update update occassionally
 ## Tasks
 - [x]  ~~Add Bash file with basic commands~~
 - [ ] Add Install via pip
-- [ ] Add Insatll via npm
+- [ ] Add Install via npm
 
 ---
 #### Fell free to suggest and report, Raise a PR with [report] or [suggest] labels
