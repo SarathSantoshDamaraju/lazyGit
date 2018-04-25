@@ -1,6 +1,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://doge.mit-license.org/)
 # lazyGit
-Tired of typing lengthy git commands? Well, if you are amongst who feel like me this repo is a saviour for you. This repo includes short hand commands for the regular git commands which you can type in jiffy. 
+Tired of typing lengthy git commands? Well, if you are amongst who feel like me this repo is a saviour for you. This repo includes short hand commands for the regular git commands which you can type in jiffy.
 > I'd advice beginners to learn git commands first hand before using any shortcodes or aliases
 
 ## Installation
@@ -18,8 +18,9 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me 
 | `git blame` | `gblame` | Yes | [:information_source:](https://git-scm.com/docs/git-blame) |
 | `git clone <url> ` | `gcl <url>` | Yes |[:information_source:](https://git-scm.com/docs/git-clone) |
 | `git commit -m <message>` | `gc <message>` | No, it accepts only commit message |[:information_source:](https://git-scm.com/docs/git-commit) |
-| `git diff [--options] <commit> [--] [<path>…]` | Yes | `gd [--options] <commit> [--] [<path>…]` | [:information_source:](https://git-scm.com/docs/git-diff) |
+| `git diff [--options] <commit> [--] [<path>…]` | `gd [--options] <commit> [--] [<path>…]` | Yes | [:information_source:](https://git-scm.com/docs/git-diff) |
 | `git fetch [<options>] [<repository> [<refspec>…]` | `gf [<options>] [<repository> [<refspec>…]]` | Yes | [:information_source:](https://git-scm.com/docs/git-fetch) |
+| `git log --graph --decorate --all` | `gl` | No | [:information_source:](https://git-scm.com/docs/git-log) |
 | `git push [<options>] [<remote>] [<branch>]` | `gph [<options>] [<remote>] [<branch>]` | Yes | [:information_source:](https://git-scm.com/docs/git-push) |
 | `git push -f [<remote>] [<branch>]`| `gph-f <remote> <branch>`| Yes | [:information_source:](https://git-scm.com/docs/git-push) |
 | `git pull [options] [<repository> [<refspec>…]]` | `gpl [options] [<repository> [<refspec>…]]` | Yes | [:information_source:](https://git-scm.com/docs/git-pull) |
@@ -39,10 +40,11 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me 
 | `git stash clear`| `gsh-c`| No It clears all the stash list | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-clear) |
 | `git stash pop [--index]`| `gsh-p [--index]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-pop--index-q--quietltstashgt) |
 | `git stash drop [<stash>]`| `gsh-d [<stash>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-apply--index-q--quietltstashgt) |
+| `git tag -l --sort=v:refname \| tail -n8` | `gt` | No | [:information_source:](https://git-scm.com/docs/git-tag) |
 ----
 ## To Contribute
 
-I have added commands that I use frequently and will update update occassionally, feel free to add any otehr commands and raise a PR. 
+I have added commands that I use frequently and will update update occassionally, feel free to add any otehr commands and raise a PR.
 
 ----
 
