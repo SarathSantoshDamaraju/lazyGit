@@ -1,6 +1,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://doge.mit-license.org/)
 # lazyGit
-Tired of typing lengthy git commands? Well, if you are amongst who feel like me this repo is a saviour for you. This repo includes short hand commands for the regular git commands which you can type in jiffy.
+Tired of typing lengthy git commands? Well, if you are amongst who feel like me this repo is a savior for you. This repo includes shorthand commands for the regular git commands which you can type in a jiffy.
 > I'd advice beginners to learn git commands first hand before using any shortcodes or aliases
 
 ## Installation
