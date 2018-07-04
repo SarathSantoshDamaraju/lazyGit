@@ -41,6 +41,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me 
 | `git stash pop [--index]`| `gsh-p [--index]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-pop--index-q--quietltstashgt) |
 | `git stash drop [<stash>]`| `gsh-d [<stash>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-apply--index-q--quietltstashgt) |
 | `git tag -l --sort=v:refname \| tail -n8` | `gt` | No | [:information_source:](https://git-scm.com/docs/git-tag) |
+| `git add . && git commit -m` | `g.c <message>` | No, it accepts only commit message |[:information_source:](https://git-scm.com/docs/git-commit) |
 ----
 ## To Contribute
 
