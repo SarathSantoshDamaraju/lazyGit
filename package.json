@@ -1,0 +1,21 @@
+{
+  "name": "lazygit_npm",
+  "version": "0.0.1",
+  "description": "NPM Package for lazyGit",
+  "main": "index.js",
+  "scripts": {},
+  "color": "always",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "g!": "bin/git-init.js",
+    "g.": "bin/git-add.js",
+    "gs": "bin/git-status.js",
+    "testCommand": "bin/testCommand.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "shelljs": "^0.8.2",
+    "yargs": "^12.0.1"
+  }
+}
