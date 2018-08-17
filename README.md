@@ -1,15 +1,19 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://doge.mit-license.org/)
-# lazyGit
-Tired of typing lengthy git commands? Well, if you are amongst who feel like me this repo is a savior for you. This repo includes shorthand commands for the regular git commands which you can type in a jiffy.
-> I'd advice beginners to learn git commands first hand before using any shortcodes or aliases
+# 🅛🅐🅩🅨🅖🅘🅣 🤟
+
+Tired of typing lengthy git commands? Well, if you are amongst who feel like me, this repo is a savior for you. This repo includes shorthand commands for the regular git commands which you can type in a jiffy.
+
+```diff
+- I'd advice beginners to learn git commands first hand before using any shortcodes or aliases
+```
 
 ## Installation
 1. Clone or Download the repo.
-2. Open terminal and navigae to the repo location.
-3. Run `./_install` to install, make sure you have permissions to execute the script. If not **run this command first** `chmod 755 _install` and run `./_install` again.
+2. Run `./_install` to install 
+3. If you see any permissions related errors try ➡️`chmod 755 _install` and run `./_install` again. or any error please raise a PR 😅
 
 ## Short Codes List
-| Command | Shortcode | Can pass default params with this command | Git Repo Link |
+| Command | Shortcode | Can pass default params with this command ? | Git Repo Link |
 | --- | --- | --- | --- |
 | `git init [<options>]` | `g! [<options>]` | Yes | [:information_source:](https://git-scm.com/docs/git-init) |
 | `git add .` | `g.` | Yes | [:information_source:](https://git-scm.com/docs/git-add) |
@@ -45,14 +49,14 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me 
 ----
 ## To Contribute
 
-I have added commands that I use frequently and will update update occassionally, feel free to add any otehr commands and raise a PR.
+I have added commands that I use frequently and scope for new commands (Bash Aliases) is less. But if you are interested you can raise a PR or please follow [this branch] (https://github.com/SarathSantoshDamaraju/lazyGit/tree/npm)
 
 ----
 
 ## Tasks
 - [x]  ~~Add Bash file with basic commands~~
-- [ ] Add Install via pip
-- [ ] Add Install via npm
+- [ ] Add Install via npm [WIP](https://github.com/SarathSantoshDamaraju/lazyGit/tree/npm)
+- [ ] ~~Add Install via pip~~ (If interested, work and raise a PR)
 
 ---
 #### Fell free to suggest and report, Raise a PR with [report] or [suggest] labels
