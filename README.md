@@ -20,6 +20,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 | `git add .` | `g.` | Yes | [:information_source:](https://git-scm.com/docs/git-add) |
 | `git branch` | `gb` | Yes | [:information_source:](https://git-scm.com/docs/git-branch) |
 | `git checkout -b <name>` | `gb-new <name>` | No, You can only pass branch-name and `--track` or `--no-track`| [:information_source:](https://git-scm.com/docs/git-checkout) |
+| `git checkout -- .` | `g!.` | No, Discards all your changes | [:information_source:](https://git-scm.com/docs/git-checkout) |
 | `git blame` | `gblame` | Yes | [:information_source:](https://git-scm.com/docs/git-blame) |
 | `git clone <url> ` | `gcl <url>` | Yes |[:information_source:](https://git-scm.com/docs/git-clone) |
 | `git commit -m <message>` | `gc <message>` | No, it accepts only commit message |[:information_source:](https://git-scm.com/docs/git-commit) |
@@ -47,6 +48,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 | `git stash drop [<stash>]`| `gsh-d [<stash>]`| Yes | [:information_source:](https://git-scm.com/docs/git-stash#git-stash-apply--index-q--quietltstashgt) |
 | `git tag -l --sort=v:refname \| tail -n8` | `gt` | No | [:information_source:](https://git-scm.com/docs/git-tag) |
 | `git add . && git commit -m` | `g.c <message>` | No, it accepts only commit message |[:information_source:](https://git-scm.com/docs/git-commit) |
+| `git rebase  [< All options>] ` | `grb [<All options>]` | Yes| [:information_source:](https://git-scm.com/docs/git-rebase) |
 ----
 ## To Contribute
 
