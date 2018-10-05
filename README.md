@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0f733ac7b7ca40e79cfed0c8396c7001)](https://app.codacy.com/app/krishna.damaraju/lazyGit?utm_source=github.com&utm_medium=referral&utm_content=SarathSantoshDamaraju/lazyGit&utm_campaign=Badge_Grade_Dashboard)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://doge.mit-license.org/)
 # 🅛🅐🅩🅨🅖🅘🅣 🤟
 
