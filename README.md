@@ -19,7 +19,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 | `git add .` | `g.` | Yes | [:information_source:](https://git-scm.com/docs/git-add) |
 | `git branch` | `gb` | Yes | [:information_source:](https://git-scm.com/docs/git-branch) |
 | `git checkout -b <name>` | `gb-new <name>` | No, You can only pass branch-name and `--track` or `--no-track`| [:information_source:](https://git-scm.com/docs/git-checkout) |
-| `git checkout -- .` | `gdsc` | No, Discards all your changes | [:information_source:](https://git-scm.com/docs/git-checkout) |
+| `git checkout -- .` | `g!.` | No, Discards all your changes | [:information_source:](https://git-scm.com/docs/git-checkout) |
 | `git blame` | `gblame` | Yes | [:information_source:](https://git-scm.com/docs/git-blame) |
 | `git clone <url> ` | `gcl <url>` | Yes |[:information_source:](https://git-scm.com/docs/git-clone) |
 | `git commit -m <message>` | `gc <message>` | No, it accepts only commit message |[:information_source:](https://git-scm.com/docs/git-commit) |
