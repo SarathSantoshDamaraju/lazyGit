@@ -1,7 +1,7 @@
 #!/bin/bash
-# Declare All functions to perform commands
+
+# This Opens the commands.txt, reads the commands into a single variable (lines) and returns it. 
 readFile () {
-  #open _commands.txt file and read them in to a single variable and return it.
   dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
   old_IFS=$IFS
   IFS=$'\n'
@@ -9,27 +9,44 @@ readFile () {
   IFS=$old_IFS
   addCommands
 }
+
+# This writes/updates commands to bash_profile. 
 addCommands () {
+  echo "🕛 Adding commands..."
+
   # Printing Commands to ~/.bash_profile
   echo ' '>>~/.bash_profile
-  echo "# <-------- Lazy Git Commands -------->" >>~/.bash_profile
+  echo "#Lazy_Git_Commands" >>~/.bash_profile
   echo ${lines[@]} >>~/.bash_profile
   echo ' '>>~/.bash_profile
+
   # Updating ~/.bash_profile
-  echo "# <-------- End  -------->" >>~/.bash_profile
-  echo "Updating bash Profile"
+  echo "#Ends_here" >>~/.bash_profile
+  echo "✅ Commands inserted"
   source ~/.bash_profile
+  echo "✅ Bash profile Updated"
+
   # to Open bash profile type 'open ~/.bash_profile'
+
+  echo "🙌 Thanks for using lazyGit"
 }
-isBashOpen () {
+
+# Installation invoker function
+beginInstallation () {
+
+  echo "🕛 Checking for .bash_profile..."
+  # Checks for the existance of .bash_profile file
   if ! [ -a ~/.bash_profile ];then
       touch .bash_profile
-      echo "File created. Writing commands"
+      echo "✅ File created."
       readFile
   else
-      echo "File already exists. Writing Commands.."
+      echo "✅ File already exists"
+      echo "🕛 Removing old commands..."
+      sed -i '' -e '1h;2,$H;$!d;g' -e 's/#Lazy_Git_Commands.*#Ends_here//g' ~/.bash_profile
       readFile
   fi
 }
+
 #Running Installation
-isBashOpen
+beginInstallation
