@@ -37,11 +37,7 @@ alias g!='git init'
 && alias g.c='git add . && git commit -m'
 && alias grb='git rebase'
 && alias gsw='git show'
-&& alias gthis=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
-;gph-this() {
-git push "$1" $gthis;
-};
-gpl-this() {
-git pull "$1" $gthis;
-};
+&& alias gthis=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,');
+gph-this() { git push "$1" $gthis; }; 
+gpl-this() { git pull "$1" $gthis; };
  
