@@ -16,6 +16,11 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 3. If you see any permissions related errors try ➡️`chmod 755 _install` and run `./_install` again. or any error please raise a PR 😅
 
 ## Short Codes List
+| Function                                            | Shortcode                                    | Can pass default params with the function ?                                                   | Details                                                                                       |
+| -------------------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `git push <remote> <current-branch>`               | `gph-this <remote>`                           | No                                                                                           | Utility Function to push the current branch                                                           |
+| `git pull <remote> <current-branch>`               | `gpl-this <remote>`                           | No                                                                                           | Utility Function to pull the current branch                                                           |
+
 
 | Command                                            | Shortcode                                    | Can pass default params with this command ?                                                   | Git Repo Link                                                                                       |
 | -------------------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -57,8 +62,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 | `git add . && git commit -m`                       | `g.c <message>`                              | No, it accepts only commit message                                                            | [:information_source:](https://git-scm.com/docs/git-commit)                                         |
 | `git rebase [< All options>]`                      | `grb [<All options>]`                        | Yes                                                                                           | [:information_source:](https://git-scm.com/docs/git-rebase)                                         |
 | `git show [<options>] [<object>]`                  | `gsw [<options>] [<object>]`                 | Yes                                                                                           | [:information_source:](https://git-scm.com/docs/git-show)                                           |
-| `git push <remote> <current-branch>`               | `gph-this <remote>`                           | No                                                                                           | Utility Function to push the current branch                                                           |
-| `git pull <remote> <current-branch>`               | `gpl-this <remote>`                           | No                                                                                           | Utility Function to pull the current branch                                                           |
+
 ---
 
 ## To Contribute
