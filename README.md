@@ -14,6 +14,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 1. Clone or Download the repo.
 2. Run `./_install` to install
 3. If you see any permissions related errors try ➡️`chmod 755 _install` and run `./_install` again. or any error please raise a PR 😅
+4. Type `gb` to verify the installation and you must see git related output. If not try re-starting your terminal and try again.
 
 ## Short Codes List
 | Function                                            | Shortcode                                    | Can pass default params with the function ?                                                   | Details                                                                                       |
