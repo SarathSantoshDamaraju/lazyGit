@@ -63,7 +63,7 @@ Tired of typing lengthy git commands? Well, if you are amongst who feel like me,
 | `git add . && git commit -m`                       | `g.c <message>`                              | No, it accepts only commit message                                                            | [:information_source:](https://git-scm.com/docs/git-commit)                                         |
 | `git rebase [< All options>]`                      | `grb [<All options>]`                        | Yes                                                                                           | [:information_source:](https://git-scm.com/docs/git-rebase)                                         |
 | `git show [<options>] [<object>]`                  | `gsw [<options>] [<object>]`                 | Yes                                                                                           | [:information_source:](https://git-scm.com/docs/git-show)                                           |
-
+| `git commit -m <message>`                          | `gyolo`                               |  No                                                         | [:information_source:](https://git-scm.com/docs/git-commit)                                         |
 ---
 
 ## To Contribute
